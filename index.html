@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Comfy House</title>
+    </head>
+    <body>
+        <!-- === NAVBAR -->
+        <nav class="navbar">
+            <div class="navbar__wrapper">
+                <span class="navbar__icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <img src="./images/logo.svg" alt="comfy house" />
+                <div class="navbar__cart-btn">
+                    <span class="navbar__icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="navbar__cart-items">0</div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- === HERO -->
+        <header class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Forniture Collection</h1>
+                <button class="btn">Shop now</button>
+            </div>
+        </header>
+
+        <!-- === PRODUCTS -->
+        <section class="products">
+            <h2 class="section-title">Our Products</h2>
+            <div class="products__wrapper">
+                <!-- <div class="products__product-item">
+                    <div class="products__product-img-wrapper">
+                        <img
+                            class="products__product-img"
+                            src="./images/hero-bg.jpeg"
+                            alt="queen bed"
+                        />
+                        <button class="products__product-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to bag
+                        </button>
+                    </div>
+                    <h3 class="products__product-title">Queen bed</h3>
+                    <h3 class="products__product-price">$<span>16</span></h3>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- CART -->
+        <section class="cart">
+            <div class="cart__close-cart">
+                <i class="far fa-window-close"></i>
+            </div>
+            <h2 class="section-title">Your Cart</h2>
+            <div class="cart__content">
+                <!-- <div class="cart__cart-item">
+                    <div class="cart__cart-item-img-wrapper">
+                        <img
+                            class="cart__cart-item-img"
+                            src="./images/hero-bg.jpeg"
+                            alt=""
+                        />
+                    </div>
+                    <div>
+                        <h3 class="cart__cart-item-title">Queen Bed</h3>
+                        <h4 class="cart__cart-item-price">$ <span>10</span></h4>
+                        <p class="cart__cart-item-remove">remove</p>
+                    </div>
+                    <div>
+                        <div class="cart__chevron-up">
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                        <div class="cart__cart-item-amount">1</div>
+                        <div class="cart__chevron-down">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="cart__footer">
+                <h3 class="cart__footer-title">
+                    Your Total : $<span class="cart__total">0</span>
+                </h3>
+                <button class="btn">Clear cart</button>
+            </div>
+        </section>
+
+        <div class="overlay"></div>
+    </body>
+</html>
