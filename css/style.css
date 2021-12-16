@@ -91,6 +91,7 @@ body {
 }
 
 .navbar__cart-btn {
+    display: block;
     position: relative;
     cursor: pointer;
 }
@@ -124,7 +125,7 @@ body {
 }
 
 .hero__title {
-    font-size: 4rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     letter-spacing: var(--main-spacing);
     margin-bottom: 2.5rem;
@@ -245,6 +246,7 @@ body {
 .cart__cart-item-title {
     font-size: 1.1rem;
     font-weight: var(--bold-weight);
+    text-transform: capitalize;
     margin-bottom: 0.2rem;
 }
 
@@ -274,7 +276,7 @@ body {
 .cart__chevron-up,
 .cart__chevron-down {
     color: var(--primary-color);
-    opacity: .8;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -310,6 +312,13 @@ body {
 .overlay.active {
     transform: translateX(0);
 }
+
+@media (min-width: 480px) {
+    .hero__title {
+        font-size: 4rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cart {
         width: 30vw;
